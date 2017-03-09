@@ -9,7 +9,6 @@
 #include <cfloat>
 #include <chrono>
 #include <cinttypes>
-#include <ciso646>
 #include <climits>
 #include <clocale>
 #include <cmath>
@@ -72,6 +71,8 @@
 #include <valarray>
 #include <vector>
 using namespace std;
+
+using ULL = unsigned long long int;
 
 class Solution {
 public:
